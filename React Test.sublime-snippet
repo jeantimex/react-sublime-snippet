@@ -9,7 +9,7 @@ describe('${1:Component}', () => {
     afterEach(() => {});
     beforeEach(() => {});
 
-    it('should render ${3:Component} correctly', () => {
+    it('should render ${1:Component} correctly', () => {
         ${0}
     });
 });
