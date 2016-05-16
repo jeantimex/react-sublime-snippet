@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+import React, { PropTypes } from 'react';
+import { defineMessages, injectIntl, intlShape } from 'react-intl';
+
+const messages = defineMessages({
+    ${2}
+});
+
+const ${1:Component} = ({
+    intl,
+}) => {
+    const { formatMessage } = intl;
+
+    return (
+        ${0}
+    );
+};
+
+${1:Component}.displayName = '${1:Component}';
+
+${1:Component}.propTypes = {
+    intl: intlShape.isRequired,
+};
+
+export { ${1:Component} };
+
+export default injectIntl(${1:Component});
+
+]]></content>
+<tabTrigger>rcompintl</tabTrigger>
+</snippet>

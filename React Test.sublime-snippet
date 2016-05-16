@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+import { assert } from 'chai';
+import { shallow } from 'enzyme';
+import ${1:Component} from '${2:../component}';
+
+describe('${1:Component}', () => {
+    afterEach(() => {});
+    beforeEach(() => {});
+
+    it('should render ${3:Component} correctly', () => {
+        ${0}
+    });
+});
+
+]]></content>
+<tabTrigger>rtest</tabTrigger>
+</snippet>

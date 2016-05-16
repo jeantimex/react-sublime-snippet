@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+import React, { PropTypes } from 'react';
+
+const ${1:Component} = ({
+    className = '',
+}) => {
+    return (
+        <div className={ `${2:classname} \${className}` }>
+            ${0}
+        </div>
+    );
+};
+
+${1:Component}.displayName = '${1:Component}';
+
+${1:Component}.propTypes = {
+    className: PropTypes.string,
+};
+
+export default ${1:Component};
+
+]]></content>
+<tabTrigger>rcomp</tabTrigger>
+</snippet>

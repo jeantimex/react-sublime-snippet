@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+describe('${1:...}', () => {
+    afterEach(() => {});
+    beforeEach(() => {});
+
+    it('should ${2:...}', () => {
+        ${0}
+    });
+});
+]]></content>
+<tabTrigger>rdesc</tabTrigger>
+</snippet>
