@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+componentDidUpdate(prevProps, prevState) {
+    ${1}
+}
+]]></content>
+<tabTrigger>rdu</tabTrigger>
+</snippet>

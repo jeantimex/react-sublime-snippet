@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+${1:prop}: PropTypes.${2:string},
+]]></content>
+<tabTrigger>rpd</tabTrigger>
+</snippet>

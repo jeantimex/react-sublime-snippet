@@ -4,5 +4,5 @@ it('should ${1:...}', () => {
     ${0}
 });
 ]]></content>
-<tabTrigger>rit</tabTrigger>
+<tabTrigger>rti</tabTrigger>
 </snippet>

@@ -1,13 +1,18 @@
 <snippet>
     <content><![CDATA[
 describe('${1:...}', () => {
-    afterEach(() => {});
-    beforeEach(() => {});
+    afterEach(() => {
+        ${2}
+    });
 
-    it('should ${2:...}', () => {
+    beforeEach(() => {
+        ${3}
+    });
+
+    it('should ${4:...}', () => {
         ${0}
     });
 });
 ]]></content>
-<tabTrigger>rdesc</tabTrigger>
+<tabTrigger>rtd</tabTrigger>
 </snippet>

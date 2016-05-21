@@ -1,11 +1,7 @@
 <snippet>
     <content><![CDATA[
 import React, { PropTypes } from 'react';
-import { defineMessages, injectIntl, intlShape } from 'react-intl';
-
-const messages = defineMessages({
-    ${2}
-});
+import { injectIntl, intlShape } from 'react-intl';
 
 const ${1:Component} = ({
     intl,
@@ -28,5 +24,5 @@ export { ${1:Component} };
 export default injectIntl(${1:Component});
 
 ]]></content>
-<tabTrigger>rcompintl</tabTrigger>
+<tabTrigger>rfci</tabTrigger>
 </snippet>

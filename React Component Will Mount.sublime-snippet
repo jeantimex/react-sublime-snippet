@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+componentWillMount() {
+    ${1}
+}
+]]></content>
+<tabTrigger>rwm</tabTrigger>
+</snippet>
