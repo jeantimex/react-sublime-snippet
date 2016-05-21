@@ -6,9 +6,7 @@ const ${1:Component} = ({
     className = '',
 }) => {
     return (
-        <div>
-            ${0}
-        </div>
+        ${0}
     );
 };
 
