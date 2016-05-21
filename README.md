@@ -1,26 +1,29 @@
-# React Sublime Snippet
+# React Sublime Snippets
 
-Feeling bored with typing or even copying React codes to write React components and test cases? If you use Sublime, hope these code snippets can help you a little bit.
+Feeling bored with typing or even copying React codes to write React components and test cases? If you use Sublime, hope these code snippets can help you enjoy writing your React components.
 
-###Usage
+The snippets follow JavaScript ES6 syntax, we don't use the old `React.createClass({...})` anymore, we write class component and functional component. Also we provide snippets to quickly write React Lifecycle functions (e.g. `componentDidMount`).
 
-1. Generate code snippet for React component (ES6 syntax): `rcomponent<TAB>`
-![rcomponent](screenshots/rcomponent.gif) 
+## Installation ##
 
-2. Generate code snippet for functional React component: `rcomp<TAB>`
-![rcomp](screenshots/rcomp.gif) 
+### Without Package Control ###
 
-3. Generate code snippet for React component (with injectIntl): `rcomponentintl<TAB>`
-![rcomponentintl](screenshots/rcomponentintl.gif) 
+At the time of writing, this package is not in wbond's [Package Control](https://packagecontrol.io/) repository yet, so you have to navigate to your Sublime Text packages folder and git clone our project.
 
-4. Generate code snippet for functional React component (with injectIntl): `rcompintl<TAB>`
-![rcompintl](screenshots/rcompintl.gif) 
+#### Mac OS ####
+"~/Library/Application Support/Sublime Text 3/Packages"
 
-5. Generate code snippet for React test case (with enzyme and chai assert): `rtest<TAB>`
-![rtest](screenshots/rtest.gif) 
+#### Windows 7 ####
+"C:\Users\YOUR_USERNAME\AppData\Roaming\Sublime Text 3\Packages"
 
-6. Generate code snippet for React test case `describe` statement: `rdesc<TAB>`
-7. Generate code snippet for React test case `it` statement: `rit<TAB>`
+```
+git clone https://github.com/jeantimex/react-sublime-snippet.git "React-Sublime-Snippets"
+```
 
-###How to Install
-Put the *.sublime-snippet files to your sublime Packages\User folder.
+## Authors
+
+* **Yong Su** - *Box Inc.* - [jeantimex](https://github.com/jeantimex)
+
+## License
+
+This project is licensed under the MIT License.
