@@ -10,7 +10,7 @@ const defaultState = {
 
 const ${1:Reducer} = (state = defaultState, action = {}) => {
     switch (action.type) {
-        case :
+        case ${5:type}:
             return {
                 ...state,
             };
