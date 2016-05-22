@@ -4,6 +4,11 @@ Feeling bored with typing or even copying React codes to write React components 
 
 The snippets follow JavaScript ES6 syntax, we don't use the old `React.createClass({...})` anymore, we write class component and functional component. Also we provide snippets to quickly write React Lifecycle functions (e.g. `componentDidMount`).
 
+## Latest Updates (May 22, 2016) ##
+ * Reorganized folder structure and grouped snippets to: React, Redux and Test
+ * Added Redux related snippets to help you write actions, reducers and redux components faster
+ * Added `<FormattedMessage />` snippet
+
 ## Examples ##
 **ES6 Class Component**<br />
 ![rcc](screenshots/rcc.gif)<br />
@@ -15,6 +20,8 @@ The snippets follow JavaScript ES6 syntax, we don't use the old `React.createCla
 ![rt](screenshots/rt.gif)<br />
 
 ## Snippets ##
+
+### React ###
 
 **ES6 Class Component** `rcc + <TAB>`
 ```javascript
@@ -197,6 +204,81 @@ shouldComponentUpdate(nextProps, nextState) {
 }
 ```
 
+### Redux ###
+
+**Redux Component** `rrc + <TAB>`
+```javascript
+import React, { Component, PropTypes } from 'react';
+import { connect } from 'react-redux';
+import {
+    ${2:action} as ${2:action}Action,
+} from '${3:path}';
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        ${2:action}: () => {
+            dispatch(${2:action}Action());
+        },
+    };
+};
+
+const mapStateToProps = ({ state }) => ({
+    ${4:prop}: state.${4:prop}
+});
+
+export class ${1:Component} extends Component {
+    render() {
+        const {
+            ${2:action}
+        } = this.props;
+
+        return (
+            ${0}
+        );
+    }
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(${1:Component});
+```
+
+**Redux Action** `rra + <TAB>`
+```javascript
+export const ${1:action} = (${2:payload}) => ({
+    type: ${3:type},
+    ${2:payload}
+});
+```
+
+**Reducer** `rrr + <TAB>`
+```javascript
+import {
+    ${2:Action}
+} from '${3:path}';
+
+const defaultState = {
+    ${4:prop},
+};
+
+const ${1:Reducer} = (state = defaultState, action = {}) => {
+    switch (action.type) {
+        case ${5:type}:
+            return {
+                ...state,
+            };
+
+        default:
+            return state;
+    }
+};
+
+export default ${1:Reducer};
+```
+
+### Test ###
+
 **React Test Case (chai assert and enzyme)** `rt + <TAB>`
 ```javascript
 import React from 'react';
@@ -262,7 +344,7 @@ At the time of writing, this package is not in wbond's [Package Control](https:/
 #### Mac OS ####
 "~/Library/Application Support/Sublime Text 3/Packages"
 
-#### Windows 7 ####
+#### Windows ####
 "C:\Users\YOUR_USERNAME\AppData\Roaming\Sublime Text 3\Packages"
 
 ```
