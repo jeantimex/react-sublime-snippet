@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+export const ${1:action} = (${2:payload}) => ({
+    type: ${3:type},
+    ${2:payload}
+});
+]]></content>
+<tabTrigger>rra</tabTrigger>
+</snippet>

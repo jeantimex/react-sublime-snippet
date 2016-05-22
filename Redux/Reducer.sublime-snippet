@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+import {
+    ${2:Action}
+} from '${3:path}';
+
+const defaultState = {
+    ${4:prop},
+};
+
+const ${1:Reducer} = (state = defaultState, action = {}) => {
+    switch (action.type) {
+        case :
+            return {
+                ...state,
+            };
+
+        default:
+            return state;
+    }
+};
+
+export default ${1:Reducer};
+
+]]></content>
+<tabTrigger>rrr</tabTrigger>
+</snippet>
