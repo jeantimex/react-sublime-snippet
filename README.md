@@ -9,21 +9,12 @@ The snippets follow JavaScript ES6 syntax, we don't use the old `React.createCla
  * Added Redux related snippets to help you write actions, reducers and redux components faster
  * Added `<FormattedMessage />` snippet
 
-## Examples ##
-**ES6 Class Component**<br />
-![rcc](screenshots/rcc.gif)<br />
-
-**Functional Component**<br />
-![rfc](screenshots/rfc.gif)<br />
-
-**Test Case (with chai assert and enzyme)**<br />
-![rt](screenshots/rt.gif)<br />
-
 ## Snippets ##
 
 ### React ###
 
-**ES6 Class Component** `rcc + <TAB>`
+**ES6 Class Component** `rcc + <TAB>`<br />
+![rcc](screenshots/rcc.gif)<br />
 ```javascript
 import React, { Component, PropTypes } from 'react';
 
@@ -72,7 +63,8 @@ class ${1:Component} extends Component {
 export default injectIntl(${1:Component});
 ```
 
-**Functional Component** `rfc + <TAB>`
+**Functional Component** `rfc + <TAB>`<br />
+![rfc](screenshots/rfc.gif)<br />
 ```javascript
 import React, { PropTypes } from 'react';
 
@@ -205,8 +197,8 @@ shouldComponentUpdate(nextProps, nextState) {
 ```
 
 ### Redux ###
-
-**Redux Component** `rrc + <TAB>`
+**Redux Component** `rrc + <TAB>`<br />
+![rrc](screenshots/rrc.gif)<br />
 ```javascript
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
@@ -278,8 +270,8 @@ export default ${1:Reducer};
 ```
 
 ### Test ###
-
-**React Test Case (chai assert and enzyme)** `rt + <TAB>`
+**React Test Case (chai assert and enzyme)** `rt + <TAB>`<br/>
+![rt](screenshots/rt.gif)<br />
 ```javascript
 import React from 'react';
 import { assert } from 'chai';
