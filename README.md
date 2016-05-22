@@ -4,6 +4,16 @@ Feeling bored with typing or even copying React codes to write React components 
 
 The snippets follow JavaScript ES6 syntax, we don't use the old `React.createClass({...})` anymore, we write class component and functional component. Also we provide snippets to quickly write React Lifecycle functions (e.g. `componentDidMount`).
 
+## Examples ##
+**ES6 Class Component**<br />
+![rcc](screenshots/rcc.gif)<br />
+
+**Functional Component**<br />
+![rfc](screenshots/rfc.gif)<br />
+
+**Test Case (with chai assert and enzyme)**<br />
+![rt](screenshots/rt.gif)<br />
+
 ## Snippets ##
 
 **ES6 Class Component** `rcc + <TAB>`
