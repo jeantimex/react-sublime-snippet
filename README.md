@@ -1,4 +1,4 @@
-# React Sublime Snippets
+# React Development Snippets
 
 Feeling bored with typing or even copying React codes to write React components and test cases? If you use Sublime, hope these code snippets can help you enjoy writing your React components.
 
@@ -340,7 +340,7 @@ At the time of writing, this package is not in wbond's [Package Control](https:/
 "C:\Users\YOUR_USERNAME\AppData\Roaming\Sublime Text 3\Packages"
 
 ```
-git clone https://github.com/jeantimex/react-sublime-snippet.git "React-Sublime-Snippets"
+git clone https://github.com/jeantimex/react-sublime-snippet.git "React-Development-Snippets"
 ```
 
 ## Authors
