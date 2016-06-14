@@ -4,7 +4,10 @@ Feeling bored with typing or even copying React codes to write React components 
 
 The snippets follow JavaScript ES6 syntax, we don't use the old `React.createClass({...})` anymore, we write class component and functional component. Also we provide snippets to quickly write React Lifecycle functions (e.g. `componentDidMount`).
 
-## Latest Updates (May 22, 2016) ##
+## Latest Updates (June 14, 2016) ##
+ * Rename our project to **React Development Snippets**
+
+## Updates (May 22, 2016) ##
  * Reorganized folder structure and grouped snippets to: React, Redux and Test
  * Added Redux related snippets to help you write actions, reducers and redux components faster
  * Added `<FormattedMessage />` snippet
