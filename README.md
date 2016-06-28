@@ -5,7 +5,7 @@ Feeling bored with typing or even copying React codes to write React components 
 The snippets follow JavaScript ES6 syntax, we don't use the old `React.createClass({...})` anymore, we write class component and functional component. Also we provide snippets to quickly write React Lifecycle functions (e.g. `componentDidMount`).
 
 **Latest Updates (June 27, 2016)**
- * Added to [Package Control](https://packagecontrol.io/packages/React%20ES6%20Snippets)! Thank you so much [FichteFoll](https://github.com/FichteFoll)!
+ * Added to [Package Control](https://packagecontrol.io/packages/React%20Development%20Snippets)! Thank you so much [FichteFoll](https://github.com/FichteFoll)!
  * Fix **Component Will Mount** snippet command
 
 **Updates (June 14, 2016)**
