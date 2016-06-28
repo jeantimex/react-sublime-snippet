@@ -5,6 +5,7 @@ Feeling bored with typing or even copying React codes to write React components 
 The snippets follow JavaScript ES6 syntax, we don't use the old `React.createClass({...})` anymore, we write class component and functional component. Also we provide snippets to quickly write React Lifecycle functions (e.g. `componentDidMount`).
 
 **Latest Updates (June 27, 2016)**
+ * Added to [Package Control](https://packagecontrol.io/packages/React%20ES6%20Snippets)! Thank you so much [FichteFoll](https://github.com/FichteFoll)!
  * Fix **Component Will Mount** snippet command
 
 **Updates (June 14, 2016)**
@@ -167,7 +168,7 @@ componentDidUpdate(prevProps, prevState) {
 }
 ```
 
-**componentWillMount** `rwm + <TAB>`
+**componentWillMount** `rcwm + <TAB>`
 ```javascript
 componentWillMount() {
     ${1}
@@ -335,15 +336,22 @@ import ${1:Package} from '${2:path}';
 
 ## Installation ##
 
+### Use Package Control ###
+
+ * Make sure you have [Package Manager](https://packagecontrol.io/installation) installed
+ * Launch the command palette: `⌘+shift+p` on MacOS, `ctrl+shift+p` on Windows
+ * Type `install`, select `Package Control: Install Package`
+ * Type `React`, select `React Development Snippets`
+
 ### Without Package Control ###
 
-At the time of writing, this package is not in wbond's [Package Control](https://packagecontrol.io/) repository yet, so you have to navigate to your Sublime Text packages folder and git clone our project.
+Navigate to your Sublime Text packages folder and git clone our project.
 
-#### Mac OS ####
-"~/Library/Application Support/Sublime Text 3/Packages"
+#### MacOS ####
+"/Users/{user}/Library/Application Support/Sublime Text {2|3}/Packages"
 
 #### Windows ####
-"C:\Users\YOUR_USERNAME\AppData\Roaming\Sublime Text 3\Packages"
+"C:\Users\{user}\AppData\Roaming\Sublime Text {2|3}\Packages"
 
 ```
 git clone https://github.com/jeantimex/react-sublime-snippet.git "React-Development-Snippets"
