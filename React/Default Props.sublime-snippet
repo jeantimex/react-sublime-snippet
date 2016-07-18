@@ -4,5 +4,5 @@ static defaultProps = {
     ${1:prop}: ${2:value},
 };
 ]]></content>
-<tabTrigger>rdp</tabTrigger>
+<tabTrigger>rdps</tabTrigger>
 </snippet>

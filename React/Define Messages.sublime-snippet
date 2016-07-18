@@ -8,5 +8,5 @@ const messages = defineMessages({
     },
 });
 ]]></content>
-<tabTrigger>rdm</tabTrigger>
+<tabTrigger>rdms</tabTrigger>
 </snippet>

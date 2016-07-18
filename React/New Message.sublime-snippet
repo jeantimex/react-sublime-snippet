@@ -4,7 +4,7 @@ ${1:message}: {
     defaultMessage: '${2:default message}',
     description: '${3:description}',
     id: '${4:id}',
-},
+}
 ]]></content>
 <tabTrigger>rnm</tabTrigger>
 </snippet>

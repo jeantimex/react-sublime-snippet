@@ -4,5 +4,5 @@ componentWillUpdate(nextProps, nextState) {
     ${1}
 }
 ]]></content>
-<tabTrigger>rwu</tabTrigger>
+<tabTrigger>rcwu</tabTrigger>
 </snippet>

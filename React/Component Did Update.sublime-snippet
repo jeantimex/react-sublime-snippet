@@ -4,5 +4,5 @@ componentDidUpdate(prevProps, prevState) {
     ${1}
 }
 ]]></content>
-<tabTrigger>rdu</tabTrigger>
+<tabTrigger>rcdu</tabTrigger>
 </snippet>

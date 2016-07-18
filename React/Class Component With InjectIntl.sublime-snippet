@@ -16,7 +16,7 @@ class ${1:Component} extends Component {
         const { formatMessage } = this.props.intl;
 
         return (
-            ${0}
+            ${2}
         );
     }
 }

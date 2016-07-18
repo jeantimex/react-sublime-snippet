@@ -4,5 +4,5 @@ static propTypes = {
     ${1:prop}: PropTypes.${2:string},
 };
 ]]></content>
-<tabTrigger>rspt</tabTrigger>
+<tabTrigger>rpts</tabTrigger>
 </snippet>
