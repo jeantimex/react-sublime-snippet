@@ -1,0 +1,20 @@
+Package Control Messages
+========================
+
+React Development Snippets:
+---
+
+  ## New Features
+
+  1. Added to Package Control! Thank you so much FichteFoll!
+  2. Fix Component Will Mount snippet command
+  3. Reorganized folder structure and grouped snippets to: React, Redux and Test
+  4. Added `<FormattedMessage />` snippet
+
+  Support
+  ----
+  
+  To learn more about the features, please visit
+  https://github.com/jeantimex/react-sublime-snippet
+  
+  If you are having trouble, please contact me at jean.timex@gmail.com

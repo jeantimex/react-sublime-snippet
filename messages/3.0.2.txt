@@ -1,0 +1,18 @@
+Package Control Messages
+========================
+
+React Development Snippets:
+---
+
+  ## New Features
+
+  1. Snippet command should match snippet name, i.e., `rcdu` => Component Did Mount
+  2. Functional Component is cleaner with one-liner prop.
+
+  Support
+  ----
+  
+  To learn more about the features, please visit
+  https://github.com/jeantimex/react-sublime-snippet
+  
+  If you are having trouble, please contact me at jean.timex@gmail.com

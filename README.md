@@ -4,17 +4,28 @@ Feeling bored with typing or even copying React codes to write React components 
 
 The snippets follow JavaScript ES6 syntax, we don't use the old `React.createClass({...})` anymore, we write class component and functional component. Also we provide snippets to quickly write React Lifecycle functions (e.g. `componentDidMount`).
 
-**Latest Updates (June 27, 2016)**
- * Added to [Package Control](https://packagecontrol.io/packages/React%20Development%20Snippets)! Thank you so much [FichteFoll](https://github.com/FichteFoll)!
- * Fix **Component Will Mount** snippet command
+## Installation ##
 
-**Updates (June 14, 2016)**
- * Rename our project to **React Development Snippets**
+### Use Package Control ###
 
-**Updates (May 22, 2016)**
- * Reorganized folder structure and grouped snippets to: React, Redux and Test
- * Added Redux related snippets to help you write actions, reducers and redux components faster
- * Added `<FormattedMessage />` snippet
+ * Make sure you have [Package Manager](https://packagecontrol.io/installation) installed
+ * Launch the command palette: `⌘+shift+p` on MacOS, `ctrl+shift+p` on Windows
+ * Type `install`, select `Package Control: Install Package`
+ * Type `React`, select `React Development Snippets`
+
+### Without Package Control ###
+
+Navigate to your Sublime Text packages folder and git clone our project.
+
+#### MacOS ####
+"/Users/{user}/Library/Application Support/Sublime Text {2|3}/Packages"
+
+#### Windows ####
+"C:\Users\{user}\AppData\Roaming\Sublime Text {2|3}\Packages"
+
+```
+git clone https://github.com/jeantimex/react-sublime-snippet.git "React-Development-Snippets"
+```
 
 ## Snippets ##
 
@@ -332,29 +343,6 @@ it('should ${1:...}', () => {
 **import** `rim + <TAB>`
 ```javascript
 import ${1:Package} from '${2:path}';
-```
-
-## Installation ##
-
-### Use Package Control ###
-
- * Make sure you have [Package Manager](https://packagecontrol.io/installation) installed
- * Launch the command palette: `⌘+shift+p` on MacOS, `ctrl+shift+p` on Windows
- * Type `install`, select `Package Control: Install Package`
- * Type `React`, select `React Development Snippets`
-
-### Without Package Control ###
-
-Navigate to your Sublime Text packages folder and git clone our project.
-
-#### MacOS ####
-"/Users/{user}/Library/Application Support/Sublime Text {2|3}/Packages"
-
-#### Windows ####
-"C:\Users\{user}\AppData\Roaming\Sublime Text {2|3}\Packages"
-
-```
-git clone https://github.com/jeantimex/react-sublime-snippet.git "React-Development-Snippets"
 ```
 
 ## Authors

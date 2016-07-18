@@ -1,0 +1,71 @@
+Package Control Messages
+========================
+
+React Development Snippets:
+---
+
+  Thanks for installing Sublime React Development Snippets! Below are some quick notes 
+  to get you started with the plugin.
+
+  Please see https://github.com/jeantimex/react-sublime-snippet for the full documentation.
+  
+  
+  ----------------------------------------------------------------------------------
+                                    About the Snippets
+  ----------------------------------------------------------------------------------
+  
+  React Development Snippets is for React developers like you, it helps you write React 
+  components, functions, tests faster.
+
+  To use the snippets, make sure you are editting a .js file, type `r`, you should see 
+  a list of snippets, choose the one you want and hit Enter.
+
+  ----------------------------------------------------------------------------------
+
+  ## Features
+
+  The React Development Snippets comes with the following snippets:
+
+  1. React
+    - Class Component
+    - Class Component with InjectIntl
+    - Functional Component
+    - Functional Component with InjectIntl
+    - Component Did Mount
+    - Component Did Update
+    - Component Will Mount
+    - Component Will Receive Props
+    - Component Will Unmount
+    - Component Will Update
+    - Default Props
+    - Define Messages
+    - Formatted Message
+    - Import
+    - New Message
+    - New Prop
+    - PropTypes
+    - Should Component Update
+
+  2. Redux
+    - Action
+    - Reducer
+    - Redux Component
+
+  3. Test
+    - Test
+    - Test Describe
+    - Test It
+
+  ## Coming Soon
+
+  1. ES6 syntax
+  2. More Redux snippets
+  3. More Test snippets
+  
+  Support
+  ----
+  
+  To learn more about the features, please visit
+  https://github.com/jeantimex/react-sublime-snippet
+  
+  If you are having trouble, please contact me at jean.timex@gmail.com
