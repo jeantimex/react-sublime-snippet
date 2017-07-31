@@ -3,7 +3,7 @@
 import React, { PropTypes } from 'react';
 import { injectIntl, intlShape } from 'react-intl';
 
-const ${1:Component} = ({ intl }) => {
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:Component}} = ({ intl }) => {
     const { formatMessage } = intl;
 
     return (

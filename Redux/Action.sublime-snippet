@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-export const ${1:action} = (${2:payload}) => ({
+export const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:action}} = (${2:payload}) => ({
     type: ${3:type},
     ${2:payload}
 });
