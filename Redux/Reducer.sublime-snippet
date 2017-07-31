@@ -8,7 +8,7 @@ const defaultState = {
     ${4:prop},
 };
 
-const ${1:Reducer} = (state = defaultState, action = {}) => {
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:Reducer}} = (state = defaultState, action = {}) => {
     switch (action.type) {
         case ${5:type}:
             return {
