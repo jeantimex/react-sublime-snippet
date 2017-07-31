@@ -18,7 +18,7 @@ const mapStateToProps = ({ state }) => ({
     ${4:prop}: state.${4:prop}
 });
 
-export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:Component}}~ extends Component {
+export class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:Component}} extends Component {
     render() {
         const {
             ${2:action}
