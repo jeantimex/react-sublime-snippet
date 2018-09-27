@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from "prop-types";
 
 class ${1:Component} extends Component {
     static propTypes = {
