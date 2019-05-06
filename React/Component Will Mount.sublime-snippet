@@ -1,7 +1,7 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 componentWillMount() {
-    ${1}
+	${1}
 }
 ]]></content>
 <tabTrigger>rcwm</tabTrigger>

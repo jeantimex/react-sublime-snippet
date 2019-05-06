@@ -1,11 +1,11 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 const messages = defineMessages({
-    ${1:message}: {
-        defaultMessage: '${2:default message}',
-        description: '${3:description}',
-        id: '${4:id}',
-    },
+	${1:message}: {
+		defaultMessage: '${2:default message}',
+		description: '${3:description}',
+		id: '${4:id}',
+	},
 });
 ]]></content>
 <tabTrigger>rdms</tabTrigger>

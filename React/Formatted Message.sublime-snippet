@@ -1,9 +1,9 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 <FormattedMessage
-    defaultMessage='${1:default message}'
-    description='${2:description}'
-    id='${3:id}'
+	defaultMessage='${1:default message}'
+	description='${2:description}'
+	id='${3:id}'
 />
 ]]></content>
 <tabTrigger>rfm</tabTrigger>

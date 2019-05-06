@@ -1,7 +1,7 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 shouldComponentUpdate(nextProps, nextState) {
-    return ${1};
+	return ${1};
 }
 ]]></content>
 <tabTrigger>rscu</tabTrigger>

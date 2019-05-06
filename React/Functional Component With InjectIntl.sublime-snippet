@@ -1,20 +1,20 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 import React, { PropTypes } from 'react';
 import { injectIntl, intlShape } from 'react-intl';
 
 const ${1:Component} = ({ intl }) => {
-    const { formatMessage } = intl;
+	const { formatMessage } = intl;
 
-    return (
-        ${2}
-    );
+	return (
+		${2}
+	);
 };
 
 ${1:Component}.displayName = '${1:Component}';
 
 ${1:Component}.propTypes = {
-    intl: intlShape.isRequired,
+	intl: intlShape.isRequired,
 };
 
 export { ${1:Component} };

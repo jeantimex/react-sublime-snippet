@@ -1,24 +1,24 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 import React, { Component, PropTypes } from 'react';
 import { injectIntl, intlShape } from 'react-intl';
 
 class ${1:Component} extends Component {
-    static propTypes = {
-        intl: intlShape.isRequired,
-    };
+	static propTypes = {
+		intl: intlShape.isRequired,
+	};
 
-    constructor(props) {
-        super(props);
-    }
+	constructor(props) {
+		super(props);
+	}
 
-    render() {
-        const { formatMessage } = this.props.intl;
+	render() {
+		const { formatMessage } = this.props.intl;
 
-        return (
-            ${2}
-        );
-    }
+		return (
+			${2}
+		);
+	}
 }
 
 export default injectIntl(${1:Component});

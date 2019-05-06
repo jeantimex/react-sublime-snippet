@@ -1,38 +1,38 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import {
-    ${2:action} as ${2:action}Action,
+	${2:action} as ${2:action}Action,
 } from '${3:path}';
 
 const mapDispatchToProps = (dispatch) => {
-    return {
-        ${2:action}: () => {
-            dispatch(${2:action}Action());
-        },
-    };
+	return {
+		${2:action}: () => {
+			dispatch(${2:action}Action());
+		},
+	};
 };
 
 const mapStateToProps = ({ state }) => ({
-    ${4:prop}: state.${4:prop}
+	${4:prop}: state.${4:prop}
 });
 
 export class ${1:Component} extends Component {
-    render() {
-        const {
-            ${2:action}
-        } = this.props;
+	render() {
+		const {
+			${2:action}
+		} = this.props;
 
-        return (
-            ${0}
-        );
-    }
+		return (
+			${0}
+		);
+	}
 }
 
 export default connect(
-    mapStateToProps,
-    mapDispatchToProps
+	mapStateToProps,
+	mapDispatchToProps
 )(${1:Component});
 
 ]]></content>
