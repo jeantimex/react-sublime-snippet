@@ -34,7 +34,8 @@ git clone https://github.com/jeantimex/react-sublime-snippet.git "React-Developm
 **ES6 Class Component** `rcc + <TAB>`<br />
 ![rcc](screenshots/rcc.gif)<br />
 ```javascript
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class ${1:Component} extends Component {
     static propTypes = {
@@ -57,7 +58,8 @@ export default ${1:Component};
 
 **ES6 Class Component with injectIntl** `rcci + <TAB>`
 ```javascript
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { injectIntl, intlShape } from 'react-intl';
 
 class ${1:Component} extends Component {
@@ -218,7 +220,8 @@ shouldComponentUpdate(nextProps, nextState) {
 **Redux Component** `rrc + <TAB>`<br />
 ![rrc](screenshots/rrc.gif)<br />
 ```javascript
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import {
     ${2:action} as ${2:action}Action,

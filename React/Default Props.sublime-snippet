@@ -1,7 +1,7 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 static defaultProps = {
-    ${1:prop}: ${2:value},
+	${1:prop}: ${2:value},
 };
 ]]></content>
 <tabTrigger>rdps</tabTrigger>

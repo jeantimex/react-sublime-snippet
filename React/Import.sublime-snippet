@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 import ${1:Package} from '${2:path}';
 ]]></content>
 <tabTrigger>rim</tabTrigger>

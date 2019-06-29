@@ -1,17 +1,17 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 describe('${1:...}', () => {
-    afterEach(() => {
-        ${2}
-    });
+	afterEach(() => {
+		${2}
+	});
 
-    beforeEach(() => {
-        ${3}
-    });
+	beforeEach(() => {
+		${3}
+	});
 
-    it('should ${4:...}', () => {
-        ${0}
-    });
+	it('should ${4:...}', () => {
+		${0}
+	});
 });
 ]]></content>
 <tabTrigger>rtd</tabTrigger>

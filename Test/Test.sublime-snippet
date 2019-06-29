@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 import React from 'react';
 import { assert } from 'chai';
 import { shallow } from 'enzyme';
@@ -8,20 +8,20 @@ import ${1:Component} from '${2:../component}';
 const sandbox = sinon.sandbox.create();
 
 describe('${1:Component}', () => {
-    afterEach(() => {
-        sandbox.verifyAndRestore();
-    });
+	afterEach(() => {
+		sandbox.verifyAndRestore();
+	});
 
-    beforeEach(() => {
-        ${3}
-    });
+	beforeEach(() => {
+		${3}
+	});
 
-    it('should render ${1:Component} correctly', () => {
-        const component = shallow(
-            <${1:Component} />
-        );
-        ${4}
-    });
+	it('should render ${1:Component} correctly', () => {
+		const component = shallow(
+			<${1:Component} />
+		);
+		${4}
+	});
 });
 
 ]]></content>
